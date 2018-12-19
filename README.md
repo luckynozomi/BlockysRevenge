@@ -29,8 +29,8 @@ Because my method of finding those ternary gates is very slow, I will just illus
 and binary gates (AND, OR, XOR gates). If anyone has a faster algorithm to identify those connections, please let me know.
 
 The core idea of the algorithm is:
-1. first identify some outputs from the inputs
-2. move those identified outputs to the set of inputs
+1. identify some outputs from the inputs
+2. add those identified outputs to the set of inputs
 3. repeat 1-2 until no outputs can be identified
 
 The implementation uses the observation that at least 1 output is identical to the input.
